@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "bundle": "jspm bundle-sfx index.js bundle.min.js --minify",
-    "jspm-install": "jspm install",
     "postinstall": "jspm install",
     "start": "live-server"
   },

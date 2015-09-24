@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="MeetupApp">
+  <head>
+    <meta charset="utf-8">
+    <title>meetup hello</title>
+  </head>
+  <body ng-controller="MeetupController as meetup">
+    <input type="text" ng-model="meetup.url" ng-change="meetup.parse()">
+    <br><br><br>
+    Subdomain: {{meetup.parsed.subdomain}}<br>
+    Domain: {{meetup.parsed.domain}}<br>
+    TLD: {{meetup.parsed.tld}}
+  </body>
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script type="text/javascript">
+    System.import('index.js');
+  </script>
+
+  <!-- <script src="bundle.min.js" charset="utf-8"></script> -->
+</html>

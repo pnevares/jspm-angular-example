@@ -1,0 +1,26 @@
+{
+  "name": "jspm-angular-example",
+  "version": "1.0.0",
+  "description": "Some stuff I live-coded for a PHXJS meetup",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "jspm bundle-sfx index.js bundle.min.js --minify",
+    "jspm-install": "jspm install",
+    "postinstall": "jspm install",
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": "https://github.com/pnevares/jspm-angular-example",
+  "jspm": {
+    "dependencies": {
+      "angular": "npm:angular@^1.5.0-beta.0",
+      "parse-domain": "npm:parse-domain@^0.1.2"
+    },
+    "devDependencies": {}
+  },
+  "devDependencies": {
+    "jspm": "^0.16.9",
+    "live-server": "^0.8.1"
+  }
+}

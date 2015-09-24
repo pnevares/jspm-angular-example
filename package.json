@@ -8,7 +8,7 @@
     "postinstall": "jspm install",
     "start": "live-server"
   },
-  "author": "",
+  "author": "Pablo Nevares <pablo@nevares.com>",
   "license": "ISC",
   "repository": "https://github.com/pnevares/jspm-angular-example",
   "jspm": {
